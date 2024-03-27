@@ -1,0 +1,4 @@
+Hi all, this is where we will be conducting our project for the AI Road Safety System. 
+
+It is important that all of you read this before starting, as it will set some ground rules
+on how this project development will work. 
