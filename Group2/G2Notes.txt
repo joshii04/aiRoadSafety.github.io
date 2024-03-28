@@ -1,0 +1,6 @@
+Hi all, 
+
+Please make sure you are documenting your development processes accordingly:
+
+- If you encounter a problem, comment it. Then, comment again on how you fixed it.
+- Document any crucial functions or applications, that can be exlplained in our report.
