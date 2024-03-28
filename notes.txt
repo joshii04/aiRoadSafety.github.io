@@ -2,3 +2,20 @@ Hi all, this is where we will be conducting our project for the AI Road Safety S
 
 It is important that all of you read this before starting, as it will set some ground rules
 on how this project development will work. 
+
+All of you will be required to do the initial setup proccess of this project on your own devices,
+as there may be some frameworks and libraries that you need to install. 
+
+This is the video: https://youtu.be/UuNGmhLpbCI?si=KYlqBxHCnW78MsX5 
+
+You are all required to develop a part of the video each, in the below fashion. There are 2 different 
+methods for the building our system. These are two chapters on the youtube video that you just need to follow:
+
+- 1. Image Classification with SciKit Learn (Aprox 30 mins of video time)
+- 2. Image Classification with Yolo V8 (Aprox 45 mins of video time)
+
+Basma + Achraf (1)
+Jason + Zack (2)
+
+I have created two separate brances for each team, so only pull and push to your designated branches for version control. 
+
