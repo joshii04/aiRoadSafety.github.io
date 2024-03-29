@@ -1,0 +1,6 @@
+
+NOTES FROM THE YOUTUBE VIDEO:
+
+-Image classification: is a concept that consists on classifying images based on predefined categories
+-used Technology: python library scikit learn
+-input= image; output= image category
