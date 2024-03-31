@@ -4,3 +4,11 @@ NOTES FROM THE YOUTUBE VIDEO:
 -Image classification: is a concept that consists on classifying images based on predefined categories
 -used Technology: python library scikit learn
 -input= image; output= image category
+-confidence score: a float value between 0 and 1, it is returned with the image caegory.
+-Metrics: confusion matrix (summerises performance), accuracy, precision and recall.
+
+HOW TO MAKE AN IMAGE CLASSIFIER:
+
+-sckikit-learn library: https://scikit-learn.org/stable/install.html
+-two datasets: pictures that show accidents and pictures that show a normal traffic flow.
+-
