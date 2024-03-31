@@ -1,12 +1,12 @@
 import os
 
 from skimage.io import imread
-from skimage.tansform import resize
+from skimage.transform import resize
 import numpy as np
 
 
 #Prepare data
-input_dir='/GitHub/aiRoadSafety.github.io/Group1/data/train'
+input_dir='/Users/basmala/Documents/GitHub/aiRoadSafety.github.io/Group1/data/train'
 categories=['Accident','Non Accident']
 
 data=[]
