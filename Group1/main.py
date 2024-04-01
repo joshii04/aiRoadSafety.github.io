@@ -59,7 +59,7 @@ pickle.dump(best_estimator, open('./Group1/model.p', 'wb'))  # Serialize and sav
 loaded_model = pickle.load(open('./Group1/model.p', 'rb'))  # Deserialize the saved model from the specified file.
 
 # Specify the path to the new image(s) you want to classify
-new_image_dir = './data/test/images'  # Set the directory containing new images to be classified.
+new_image_dir = './Group1/testdata'  # Set the directory containing new images to be classified.
 
 # Loop through the new images and make predictions
 for file in os.listdir(new_image_dir):  # Iterate through each file in the specified directory.
