@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 
 
 # prepare data
-input_dir = 'C:\\Users\\achraf\\OneDrive - Liverpool John Moores University\\group project\\data'
+input_dir = '/Users/basmala/Documents/GitHub/aiRoadSafety.github.io/Group1/data/train'
 categories = ['Accident', 'Non Accident']
 
 data = []
