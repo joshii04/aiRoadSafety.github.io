@@ -39,7 +39,7 @@ grid_search = GridSearchCV(classifier, parameters)
 
 grid_search.fit(x_train, y_train)
 
-# test performance
+# test performances
 best_estimator = grid_search.best_estimator_
 
 y_prediction = best_estimator.predict(x_test)
