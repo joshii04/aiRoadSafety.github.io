@@ -51,3 +51,26 @@ score = accuracy_score(y_prediction, y_test)  # Compute the accuracy score of th
 print('{}% of samples were correctly classified'.format(str(score * 100)))  # Print the accuracy score on the test set.
 
 pickle.dump(best_estimator, open('./model.p', 'wb'))  # Serialize and save the best performing model to a file for future use.
+
+
+
+
+
+
+# Load the saved model
+loaded_model = pickle.load(open('C:\\Users\\achraf\\OneDrive - Liverpool John Moores University\\group project\\aiRoadSafety.github.io\\model.p', 'rb'))
+
+# Specify the path to the new image(s) you want to classify
+new_image_dir = 'C:\\Users\\achraf\\OneDrive - Liverpool John Moores University\\data\\test\\images'
+
+# Loop through the new images and make predictions
+for file in os.listdir(new_image_dir):
+    img_path = os.path.join(new_image_dir, file)
+    img = imread(img_path)
+    img = resize(img, (15, 15))  # Resize the image to match the model's input size
+    img_flat = img.flatten()
+    prediction = loaded_model.predict([img_flat])
+    if prediction[0] == 0:
+        print(f"{file} is classified as Accident")
+    else:
+        print(f"{file} is classified as Non Accident")
