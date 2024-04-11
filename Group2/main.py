@@ -3,7 +3,7 @@ import cv2
 
 model = YOLO('yolov8n-cls.pt') # This loads a pretrained model that is recommended for training
 
-results = model.train(data=r'C:\Users\User\Documents\GitHub\aiRoadSafety.github.io\Group2\weather_training_set', epochs=1, imgsz=64)
+results = model.train(data=r'C:\Users\User\Documents\GitHub\aiRoadSafety.github.io\Group2\weather_training_set', epochs=20, imgsz=64)
 
 # setting echochs to 1 for a easy training to see if everything works properly
 # data is the path to the images 
